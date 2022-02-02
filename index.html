@@ -152,6 +152,55 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-markdown语法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h1><h2 id="shell"><a href="#shell" class="headerlink" title="shell"></a>shell</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">drop</span> tablespace STK_TS including contents <span class="keyword">and</span> datafiles;</span><br><span class="line"><span class="keyword">drop</span> tablespace STK_IDX_TS including contents <span class="keyword">and</span> datafiles;</span><br><span class="line"><span class="keyword">drop</span> tablespace STK_HIS_TS including contents <span class="keyword">and</span> datafiles;</span><br><span class="line"><span class="keyword">drop</span> tablespace STK_HIS_IDX_TS including contents <span class="keyword">and</span> datafiles;</span><br><span class="line"><span class="keyword">drop</span> <span class="keyword">user</span> ctsdb cascade;</span><br><span class="line"></span><br><span class="line"><span class="comment">--创建CTS表空间</span></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span>SPACE STK_TS </span><br><span class="line">    LOGGING </span><br><span class="line">    DATAFILE <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_TS01.dbf&#x27;</span> SIZE <span class="number">1024</span>M,</span><br><span class="line">    <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_TS02.dbf&#x27;</span> SIZE <span class="number">1024</span>M;</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span>SPACE STK_IDX_TS </span><br><span class="line">    LOGGING </span><br><span class="line">    DATAFILE <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_IDX_TS01.dbf&#x27;</span> SIZE <span class="number">1024</span>M;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">CREATE</span> <span class="keyword">TABLE</span>SPACE STK_HIS_TS </span><br><span class="line">    LOGGING </span><br><span class="line">    DATAFILE <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_HIS_TS01.dbf&#x27;</span> SIZE <span class="number">2048</span>M,</span><br><span class="line">    <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_HIS_TS02.dbf&#x27;</span> SIZE <span class="number">2048</span>M;</span><br><span class="line"></span><br><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span>SPACE STK_HIS_IDX_TS</span><br><span class="line">    LOGGING </span><br><span class="line">    DATAFILE <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_HIS_IDX_TS01.dbf&#x27;</span> SIZE <span class="number">1024</span>M,</span><br><span class="line">    <span class="string">&#x27;/u01/app/oracle/oradata/ctsdb/STK_HIS_IDX_TS02.dbf&#x27;</span> SIZE <span class="number">1024</span>M;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2022/02/02/markdown%E8%AF%AD%E6%B3%95/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
